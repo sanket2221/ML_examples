@@ -9,7 +9,7 @@ import tensorflow as tf
 from sklearn.tree import DecisionTreeClassifier
 #data pre-processing
 
-dataset = pd.read_csv('C:/Users/Sanket Barhate/Downloads/red-wine-quality-cortez-et-al-2009/winequality_red.csv')
+dataset = pd.read_csv('red-wine-quality-cortez-et-al-2009/winequality_red.csv')
 x = dataset.iloc[:,[0,1,3,4,5,6,7,8,9,10]].values
 y = dataset.iloc[:,-1].values
 
